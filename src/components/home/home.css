@@ -1,0 +1,43 @@
+.homeContainer{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0px;
+
+    background: url(../../assets/background-img.png);
+}
+.intro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home__img{
+    width: 500px;
+    height: auto;
+}
+
+.home__name{
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+}
+
+.home__socials{
+    display: flex;
+    column-gap: 2.75rem;
+}
+
+.home__social-link{
+    color: var(--title-color);
+    font-size: 1.7rem;
+    transition: .2s;
+}
+
+.home__social-link:hover{
+    color: hsl(337, 92%, 56%);
+    transform: scale(1.4);
+}

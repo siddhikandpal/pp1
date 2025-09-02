@@ -1,0 +1,11 @@
+.main {
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.main-with-sidebar {
+    margin-left: 90px; /* Your original sidebar width */
+}
+
+.main-full-width {
+    margin-left: 0;
+}

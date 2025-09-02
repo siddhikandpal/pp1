@@ -1,0 +1,33 @@
+.about__container{
+    margin-top: 0px;
+    grid-template-columns: 8fr 2fr;
+    column-gap: 10px;
+}
+.section__title{
+    margin-bottom: 30px;   
+}
+.about__info{
+    box-shadow: 2px 2px 8px 8px rgba(39, 37, 37, 0.2);
+    border-radius: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.about__desc{
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.btn{
+    text-align: center;
+}
+.about__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 600px){
+    .about__container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

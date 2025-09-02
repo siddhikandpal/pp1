@@ -1,0 +1,63 @@
+.contact.sectino{
+    padding-bottom: 6.25rem;
+}
+
+.contact__container{
+    grid-template-columns: 4fr 6fr;
+    column-gap: 0.5rem;
+}
+
+@media screen and (max-width: 600px){
+    .contact__container{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+}
+
+.contact__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.5rem;
+}
+
+.contact__form-div{
+    position: relative;
+    margin-bottom: 1.875rem;
+    height: 3.75rem;
+}
+
+
+.contact__form-group{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .contact__form-group{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.contact__form-input{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact__form-input:focus::placeholder {
+  color: transparent;
+}
+
+.btn{
+    margin-top: 20px;
+}
