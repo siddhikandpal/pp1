@@ -80,7 +80,7 @@ const Projects = () => {
         })}
       </div>
       <div className = "projects__viewmore">
-        <a href = "https://github.com/Ayushii-uniyal?tab=repositories"className = "projects__viewmore-text">View more..</a>
+        <a href = "https://github.com/siddhikandpal?tab=repositories"className = "projects__viewmore-text">View more..</a>
       </div>
     </div>
   )
